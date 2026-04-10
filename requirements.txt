@@ -1,0 +1,23 @@
+# Fake Product Review Detection System - Backend Dependencies
+# Python 3.9+ required
+
+# Web Framework
+Flask==3.1.0
+Flask-CORS==5.0.1
+
+# Machine Learning
+scikit-learn==1.6.1
+joblib==1.4.2
+
+# NLP
+nltk==3.9.1
+
+# Data Processing
+pandas==2.2.3
+numpy==2.2.4
+
+# Database
+# SQLite is built-in with Python, no extra package needed
+
+# Utilities
+python-dotenv==1.1.0
