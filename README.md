@@ -38,13 +38,19 @@ pip install -r requirements.txt
 
 Download a fake reviews dataset CSV and place it in the `data/` folder:
 
-**Recommended**: [Fake Reviews Dataset (40K reviews)](https://www.kaggle.com/datasets/mexwell/fake-reviews-dataset)
+<!-- **Recommended**: [Fake Reviews Dataset (40K reviews)](https://www.kaggle.com/datasets/mexwell/fake-reviews-dataset)
 - Download `fake reviews dataset.csv`
 - Place it in: `fake_review_backend/data/fake reviews dataset.csv`
 
 Other compatible datasets:
 - [Amazon Labeled Fake Reviews](https://www.kaggle.com/datasets/malikawaispy/amazon-labeled-fake-reviews)
-- [Fake Reviews Detection Dataset](https://www.kaggle.com/datasets/syntheticprogrammer/fake-reviews-detection-dataset)
+- [Fake Reviews Detection Dataset](https://www.kaggle.com/datasets/syntheticprogrammer/fake-reviews-detection-dataset) -->
+
+The dataset used in our project:
+
+https://www.kaggle.com/datasets/mexwell/fake-reviews-dataset?resource=download
+
+
 
 ### Step 3: Train the Model
 
@@ -184,7 +190,7 @@ fake_review_backend/
 │   ├── fake_review_model.pkl
 │   └── tfidf_vectorizer.pkl
 ├── data/                        # Dataset and SQLite database
-│   ├── *.csv                    # Place dataset here
+│   ├── *.csv                    # dataset
 │   └── reviews.db               # SQLite database (auto-created)
 ├── tests/
 │   └── test_api.py              # API test script
